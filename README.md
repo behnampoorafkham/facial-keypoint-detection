@@ -169,4 +169,18 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 #### Detect faces in a given image
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
+<<<<<<< HEAD
 | Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection to detect all faces in 
+=======
+| Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection to detect all faces in a selected image. |
+
+#### Transform each detected face into an input Tensor
+| Criteria       		|     Meets Specifications	        			            | 
+|:---------------------:|:---------------------------------------------------------:| 
+| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square, grayscale image and then a Tensor for your model to take in as input (similar to what the `data_transform` did in Notebook 2). |
+
+#### Predict and display the keypoints
+| Criteria       		|     Meets Specifications	        			            | 
+|:---------------------:|:---------------------------------------------------------:| 
+| Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
+>>>>>>> decc255e4290144038b25f3853d7ff96cac48e78
